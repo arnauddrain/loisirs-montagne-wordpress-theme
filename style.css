@@ -60,6 +60,10 @@ nav ul li a {
   color: #383838;
 }
 
+nav ul li.menu-item-has-children > a {
+  background: url(assets/images/ico_deroule.png) no-repeat center 42px;
+}
+
 nav ul li a:hover {
   color: white;
   background: linear-gradient(
@@ -69,6 +73,41 @@ nav ul li a:hover {
     #0095e0 91%,
     #0095e0 100%
   );
+}
+
+nav ul li.menu-item-has-children > a:hover {
+  background: url(assets/images/ico_deroule_hover.png) no-repeat center 42px,
+    linear-gradient(
+      to bottom,
+      #00aeef 0%,
+      #00aeef 91%,
+      #0095e0 91%,
+      #0095e0 100%
+    );
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+nav ul ul li {
+  border: 1px solid #d7d6d5;
+  border-top: none;
+  background: white;
+}
+
+nav ul ul li:first-child {
+  border-top: 1px solid #d7d6d5;
+}
+
+nav ul ul li a {
+  text-align: left;
+  font-size: 22px;
 }
 
 .container {
