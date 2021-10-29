@@ -149,7 +149,7 @@ h3 {
   text-align: center;
 }
 
-.wp-block-column p {
+.wp-block-column p .has-background {
   display: inline-block;
 }
 
