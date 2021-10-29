@@ -70,6 +70,12 @@ nav ul li.menu-item-has-children > a {
   background: url(assets/images/ico_deroule.png) no-repeat center 42px;
 }
 
+@media screen and (max-width: 768px) {
+  nav ul li.menu-item-has-children > a {
+    background: none;
+  }
+}
+
 nav ul li a:hover {
   color: white;
   background: linear-gradient(
