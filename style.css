@@ -145,6 +145,14 @@ h3 {
   margin-bottom: 15px;
 }
 
+.wp-block-column {
+  text-align: center;
+}
+
+.wp-block-column p {
+  display: inline-block;
+}
+
 footer {
   background: url(assets/images/footer_bg.png) no-repeat right;
   margin-top: 150px;
