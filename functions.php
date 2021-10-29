@@ -1,5 +1,7 @@
 <?php
 
+add_theme_support('title-tag');
+
 function loisirs_montagne_enqueue_scripts()
 {
     wp_enqueue_style('loisirs-montagne-style', get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get('Version'));
