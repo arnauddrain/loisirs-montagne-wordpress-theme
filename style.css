@@ -139,10 +139,15 @@ h3 {
   text-align: justify;
 }
 
-.wp-block-group p {
+.wp-block-group p,
+.wp-block-group ul {
   color: #7b7a7a;
   margin-top: 10px;
   margin-bottom: 15px;
+}
+
+.wp-block-group ul {
+  padding-left: 20px;
 }
 
 .wp-block-column {
