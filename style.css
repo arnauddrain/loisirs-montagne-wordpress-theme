@@ -85,7 +85,7 @@ nav ul li a:hover {
   color: white;
   background: linear-gradient(
     to bottom,
-    #00aeef 0%,
+    p 0%,
     #00aeef 91%,
     #0095e0 91%,
     #0095e0 100%
@@ -210,6 +210,14 @@ td {
 
 .wp-block-column p.has-background {
   display: inline-block;
+}
+
+p.has-background > a {
+  text-decoration: none;
+}
+
+p.has-background:has(a):hover {
+  filter: brightness(0.8);
 }
 
 footer {
