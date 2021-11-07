@@ -19,5 +19,7 @@
             )
         ); ?>
     </nav>
+    <div id="background">
+        <div id="background-overlay"></div>
 
-    <div class="container">
+        <div class="container">
