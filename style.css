@@ -12,6 +12,12 @@ Tags: loisirs-montagne
 Loisirs-Montagne WordPress Theme
 */
 
+:root {
+  --primary: #009be0;
+  --secondary: #118e12;
+  --secondary: ;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -157,7 +163,7 @@ nav ul ul li a {
 h2 {
   margin-bottom: 10px;
   color: white;
-  background-color: #00aeef;
+  background-color: var(--primary);
   display: inline-block;
   padding: 20px;
 }
@@ -165,7 +171,7 @@ h2 {
 h3 {
   margin-bottom: 10px;
   margin-left: 15px;
-  color: #00aeef;
+  color: var(--primary);
   text-align: left;
 }
 
@@ -215,8 +221,8 @@ footer {
 }
 
 footer ul {
-  background: #d3682b /*url(assets/images/footer_bg.png)*/ no-repeat right
-    bottom;
+  background: var(--secondary) /*url(assets/images/footer_bg.png)*/ no-repeat
+    right bottom;
   display: flex;
   list-style-type: none;
   justify-content: center;
