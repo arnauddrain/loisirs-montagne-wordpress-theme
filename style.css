@@ -5,7 +5,7 @@ Author: Arnaud Drain
 Author URI: https://github.com/arnauddrain/
 Description: Loisirs-Montagne est le theme du site de l'association Loisirs-Montagne
 Requires at least: 5.7.2
-Tested up to: 5.7.2
+Tested up to: 5.8.3
 Text Domain: loisirsmontagne
 Tags: loisirs-montagne
 
@@ -252,4 +252,15 @@ footer ul li:last-child a {
 
 footer ul li a:hover {
   text-decoration: underline;
+}
+
+input,
+textarea {
+  border: 1px solid #c8c8c8;
+  width: 100%;
+  font-size: 16px;
+  padding: 10px 10px;
+  margin: 0 0 23px 0;
+  height: auto;
+  margin-top: 5px;
 }
