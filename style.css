@@ -158,6 +158,7 @@ nav ul ul li a {
 
 .container {
   max-width: 1200px;
+  min-height: calc(100vh - 347px - 58px - 27px);
   margin: auto;
   padding: 0 20px;
   padding-top: 50px;
@@ -229,8 +230,8 @@ p.has-background:hover {
 footer {
   position: relative;
   /*background: url(assets/images/footer_bg.png) no-repeat right;
-  margin-top: 80px;*/
-  padding-top: 176px;
+  margin-top: 80px;
+  padding-top: 176px;*/
 }
 
 footer ul {
