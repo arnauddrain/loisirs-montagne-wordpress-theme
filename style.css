@@ -26,14 +26,13 @@ Loisirs-Montagne WordPress Theme
 }
 
 header {
+  text-align: center;
   background: url(assets/images/bg_header.jpg);
   background-size: cover;
   padding: 20px 0 50px 0;
 }
 
 a {
-  display: block;
-  text-align: center;
   color: var(--primary);
   text-decoration: none;
 }
@@ -73,6 +72,7 @@ nav ul li:first-child {
 }
 
 nav ul li a {
+  display: block;
   text-decoration: none;
   padding: 15px 19px;
   font-size: 25px;
@@ -92,6 +92,7 @@ nav ul li.menu-item-has-children > a {
 }
 
 nav ul li a:hover {
+    text-decoration: none;
   color: white;
   background: linear-gradient(
     to bottom,
