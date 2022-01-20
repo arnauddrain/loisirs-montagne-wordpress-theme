@@ -37,6 +37,10 @@ header > .header-bg {
   padding: 20px 0 50px 0;
 }
 
+header img {
+  max-width: 80%;
+}
+
 a {
   color: var(--primary);
   text-decoration: none;
