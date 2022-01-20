@@ -29,6 +29,11 @@ header {
   text-align: center;
   background: url(assets/images/bg_header.jpg);
   background-size: cover;
+  padding: 0;
+}
+
+header > .header-bg {
+  background: rgba(200, 200, 255, 0.1);
   padding: 20px 0 50px 0;
 }
 
@@ -92,7 +97,7 @@ nav ul li.menu-item-has-children > a {
 }
 
 nav ul li a:hover {
-    text-decoration: none;
+  text-decoration: none;
   color: white;
   background: linear-gradient(
     to bottom,

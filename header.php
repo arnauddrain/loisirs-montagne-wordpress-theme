@@ -10,7 +10,9 @@
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
     <header>
-        <a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/logo.png"></a>
+        <div class="header-bg">
+            <a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/logo.png"></a>
+        </div>
     </header>
     <nav>
         <?php wp_nav_menu(
