@@ -41,6 +41,10 @@ header img {
   max-width: 80%;
 }
 
+.has-white-color a {
+  color: white;
+}
+
 a {
   color: var(--primary);
   text-decoration: none;
