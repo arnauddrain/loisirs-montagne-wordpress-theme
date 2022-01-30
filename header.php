@@ -11,7 +11,7 @@
     <?php wp_body_open(); ?>
     <header>
         <div class="header-bg">
-            <a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/logo.png"></a>
+            <a title="Accueil" href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/logo.png" alt="logo"></a>
         </div>
     </header>
     <nav>
