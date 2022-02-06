@@ -130,6 +130,7 @@ nav ul li.menu-item-has-children > a:hover {
 nav ul ul {
   display: none;
   position: absolute;
+  z-index: 2;
 }
 
 nav ul li:hover ul {
